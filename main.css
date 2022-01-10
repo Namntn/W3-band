@@ -14,3 +14,9 @@ h1 {
     height: 120px;
     background: rgb(rgb(158, 5, 5), rgb(123, 201, 123), blue);
 }
+
+:root {
+    --text-color : rgb(238, 160, 14);
+
+}
+

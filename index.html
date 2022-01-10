@@ -6,15 +6,39 @@
         <link rel="stylesheet" href="main.css">
         <style>
            h1 {
-                color: royalblue;
+                color: var(--text-color);
                 font-size: 100px;
+            }
+            img::after{
+                content: "(" attr(src) ")"
             }
             
             .box{
                 width: 100%;
                 height: 120px;
-                background: rgb(red, rgb(98, 55, 177), blue);
+                background: rgb(218, 49, 49)
             }
+
+            a::after {
+                content: " (" attr(href) ")";
+            }
+
+            .box::before {
+                content: "Website degin by Nam";
+                display: block;
+                width: 50%;
+                height: 20%;
+                background-color: antiquewhite;
+            }
+
+            .box::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+               background-color: brown ;
+            }
+
         </style>  
     </head>
 
@@ -27,6 +51,6 @@
             <a href="https://www.facebook.com/nguyennam20012003/">Đây là facebook của mình!</a> <br>
            <h2 id="no2">Mình có đáng yêu không?</h2> 
            Có <input type="checkbox">
-           
+            
     </body>
 </html>
