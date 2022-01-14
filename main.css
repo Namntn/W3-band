@@ -23,6 +23,7 @@ h1 {
 body{
     background-color: antiquewhite;
     background-image: url(https://wallpaperaccess.com/full/5923902.jpg);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
