@@ -61,8 +61,10 @@ html{
 
 #nav .subnav {
     display: none; 
-    min-width: 160px;
     position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0 , 0, 0, 0.3);
 }
