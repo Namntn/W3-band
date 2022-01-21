@@ -15,17 +15,23 @@ html{
 3. màu sắc
 4. kiểu dáng (kiểu chữ, hình tròn, vuông,..)  
 */
+
+.clear{
+    clear: both;
+}
+
 #main{
 
 
 }
 #header{
-    height: 46px;
-    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 46px;
+    background-color: black;
+    z-index: 1;
 }
 #nav{
     display: inline-block;
@@ -116,8 +122,7 @@ html{
     position: absolute;
     bottom: 47px;    
     color: #fff;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
     text-align: center;
 }
 #slider .text-heading{
@@ -163,7 +168,26 @@ html{
     line-height: 1.4;
 }
 
+#content .member-list{
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
 
+#content .member-item{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
 #footer{
 
 
