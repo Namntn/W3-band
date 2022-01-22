@@ -20,6 +20,10 @@ html{
     clear: both;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 #main{
 
 
@@ -113,6 +117,7 @@ html{
 }
 
 #slider{
+   position: relative;
    margin-top: 46px;
    padding-top: 50%;
    background: url('/W3s_band/assets/img/silder/silder1.jpg') top center / cover no-repeat;
@@ -188,6 +193,43 @@ html{
     margin-top: 15px;
     border-radius: 4px;
 }
+
+/* Tour section */
+.tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.tickets-list li {
+    color: #757575;
+    list-style: none;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+.tickets-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+
+            
 #footer{
 
 
