@@ -318,6 +318,7 @@ html{
     max-width: calc(100%-32);
     min-height: 200px;
     position: relative;
+    animation: modalfadein ease 0.4s;
 }
 
 .modal-header{
@@ -388,4 +389,14 @@ html{
 
 .modal-footer a{
     color: #2196F3;
+}
+
+@keyframes modalfadein {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }
